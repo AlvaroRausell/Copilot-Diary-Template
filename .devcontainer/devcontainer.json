@@ -1,0 +1,22 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ],
+            "settings": {
+                "github.copilot.enable": {
+                    "*": true,
+                    "plaintext": true,
+                    "markdown": true,
+                    "scminput": true
+                },
+                "github.copilot.editor.enableCodeActions": true,
+                "chat.agent.enabled": true,
+                "github.copilot.chat.codesearch.enabled": true
+            }
+        }
+    }
+}
